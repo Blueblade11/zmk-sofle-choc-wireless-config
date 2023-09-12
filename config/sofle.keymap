@@ -224,7 +224,7 @@
 &kp N6      &kp N5      &kp N1  &kp N2    &kp N3     &kp N4                            &apex  &apex  &apex  &apex  &apex  &to 0
 &kp ESC     &kp TAB     &kp Q   &kp W     &kp E      &kp R                             &apex  &apex  &apex  &apex  &apex  &apex 
 &kp Y       &kp LSHIFT  &kp A   &kp S     &kp D      &kp F                             &apex  &apex  &apex  &apex  &apex  &apex
-&kp T       &kp LCTRL   &kp Z   &kp X     &kp C      &kp B  &screenshot     &apex      &apex  &apex  &apex  &apex  &apex  &apex
+&kp T       &kp LCTRL   &kp Z   &kp X     &kp C      &kp V  &screenshot     &apex      &apex  &apex  &apex  &apex  &apex  &apex
                         &kp F1  &kp G     &kp LALT   &kp X  &kp SPACE       &kp ENTER  &apex  &apex  &apex  &screenshot
             >;
 
