@@ -76,7 +76,7 @@
     behaviors {
         // del/backspace functionality for layer keys
 
-        lyr_red: raise_red_layer {
+        red_lyr: raise_red_layer {
             compatible = "zmk,behavior-hold-tap";
             label = "KEYPRESS_LAYER";
             bindings =
@@ -87,7 +87,7 @@
             quick-tap-ms = <0>;
             flavor = "hold-preferred";
         };
-        lyr_ylw: lower_yellow_layer {
+        ylw_lyr: lower_yellow_layer {
             compatible = "zmk,behavior-hold-tap";
             label = "KEYPRESS_LAYER";
             bindings =
@@ -280,9 +280,29 @@
             tap-ms = <0>;
             bindings
                 = <&macro_press &mo 2>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(0,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(210,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(225,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(240,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(255,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(270,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(285,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(300,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(315,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(330,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(345,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(0,100,50)
                 , <&macro_pause_for_release>
                 , <&macro_release &mo 2>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(345,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(330,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(315,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(300,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(285,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(270,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(255,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(240,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(225,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(210,100,30)>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(195,100,30)>;
         };
         
@@ -294,9 +314,25 @@
             tap-ms = <0>;
             bindings
                 = <&macro_press &mo 1>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(180,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(165,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(150,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(135,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(120,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(105,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(90,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(75,100,50)>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(60,100,50)>
                 , <&macro_pause_for_release>
                 , <&macro_release &mo 1>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(75,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(90,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(105,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(120,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(135,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(150,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(165,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(180,100,50)>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(195,100,30)>;
         };
 
@@ -308,9 +344,25 @@
             tap-ms = <0>;
             bindings
                 = <&macro_press &mo 3>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(200,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(205,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(210,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(215,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(220,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(225,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(230,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(235,100,30)>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(240,100,50)>
                 , <&macro_pause_for_release>
                 , <&macro_release &mo 3>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(235,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(230,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(225,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(220,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(215,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(210,100,50)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(205,100,30)>
+                , <&macro_tap &rgb_ug RGB_COLOR_HSB(200,100,30)>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(195,100,30)>;
         };
     };
@@ -328,7 +380,7 @@
 &hml LALT GRAVE   &kp Q     &kp W            &f_e           &p_r              &g_t                                      &kp J            &kp L           &kp U           &kp Y           &semi_p     &hms BSPC LBKT
 &hml LCTRL EQUAL  &kp A     &hm_c_rs LALT 0  &hms LCTRL S   &hm_c_tg LSHFT 0  &kp D                                     &kp H            &hms RSHFT N    &hms RCTRL E    &hml LALT I     &kp O       &kp SQT
 &hml LSHFT MINUS  &kp Z     &kp X            &kp C          &kp V             &kp B            &key_repeat  &degree     &kp K            &kp M           &kp COMMA       &kp DOT         &kp FSLH    &kp RBKT
-                            &b_blu           &kp LGUI       &kp LALT          &l_ylw 0 DEL     &kp SPACE    &kp RET     &r_red 0 BSPC    &kp LCTRL       &kp CLCK        &kp LA(LSHFT)   
+                            &b_blu           &kp LGUI       &kp LALT          &ylw_lyr 0 DEL   &kp SPACE    &kp RET     &red_lyr 0 BSPC  &kp LCTRL       &kp CLCK        &kp LA(LSHFT)   
                                                                                                                                                                          /* ime keyboard toggle */
   >;
 
