@@ -280,7 +280,7 @@
             tap-ms = <0>;
             bindings
                 = <&macro_press &mo 2>
-                , <&macro_wait_time 1>
+                , <&macro_wait_time 50>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(210,100,30)
                                 &rgb_ug RGB_COLOR_HSB(225,100,30)
                                 &rgb_ug RGB_COLOR_HSB(240,100,30)
@@ -295,7 +295,7 @@
                 , <&macro_wait_time 0>
                 , <&macro_pause_for_release>
                 , <&macro_release &mo 2>
-                , <&macro_wait_time 1>
+                , <&macro_wait_time 50>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(345,100,50)
                                 &rgb_ug RGB_COLOR_HSB(330,100,50)
                                 &rgb_ug RGB_COLOR_HSB(315,100,50)
@@ -318,7 +318,7 @@
             tap-ms = <0>;
             bindings
                 = <&macro_press &mo 1>
-                , <&macro_wait_time 1>
+                , <&macro_wait_time 50>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(180,100,50)
                                 &rgb_ug RGB_COLOR_HSB(165,100,50)
                                 &rgb_ug RGB_COLOR_HSB(150,100,50)
@@ -331,7 +331,7 @@
                 , <&macro_wait_time 0>
                 , <&macro_pause_for_release>
                 , <&macro_release &mo 1>
-                , <&macro_wait_time 1>
+                , <&macro_wait_time 50>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(75,100,50)
                                 &rgb_ug RGB_COLOR_HSB(90,100,50)
                                 &rgb_ug RGB_COLOR_HSB(105,100,50)
@@ -352,7 +352,7 @@
             tap-ms = <0>;
             bindings
                 = <&macro_press &mo 3>
-                , <&macro_wait_time 1>
+                , <&macro_wait_time 50>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(200,100,30)
                                 &rgb_ug RGB_COLOR_HSB(205,100,30)
                                 &rgb_ug RGB_COLOR_HSB(210,100,50)
@@ -365,7 +365,7 @@
                 , <&macro_wait_time 0>
                 , <&macro_pause_for_release>
                 , <&macro_release &mo 3>
-                , <&macro_wait_time 1>
+                , <&macro_wait_time 50>
                 , <&macro_tap &rgb_ug RGB_COLOR_HSB(235,100,30)
                                 &rgb_ug RGB_COLOR_HSB(230,100,30)
                                 &rgb_ug RGB_COLOR_HSB(225,100,50)
