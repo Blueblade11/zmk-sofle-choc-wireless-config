@@ -328,7 +328,7 @@
 &hml LALT GRAVE   &kp Q     &kp W            &f_e           &p_r              &g_t                                      &kp J            &kp L           &kp U           &kp Y           &semi_p     &hms BSPC LBKT
 &hml LCTRL EQUAL  &kp A     &hm_c_rs LALT 0  &hms LCTRL S   &hm_c_tg LSHFT 0  &kp D                                     &kp H            &hms RSHFT N    &hms RCTRL E    &hml LALT I     &kp O       &kp SQT
 &hml LSHFT MINUS  &kp Z     &kp X            &kp C          &kp V             &kp B            &key_repeat  &degree     &kp K            &kp M           &kp COMMA       &kp DOT         &kp FSLH    &kp RBKT
-                            &b_blu           &kp LGUI       &kp LALT          &lyr_red 0 DEL   &kp SPACE    &kp RET     &lyr_ylw 0 BSPC  &kp LCTRL       &kp CLCK        &kp LA(LSHFT)   
+                            &b_blu           &kp LGUI       &kp LALT          &l_ylw 0 DEL     &kp SPACE    &kp RET     &r_red 0 BSPC  &kp LCTRL       &kp CLCK        &kp LA(LSHFT)   
                                                                                                                                                                          /* ime keyboard toggle */
   >;
 
