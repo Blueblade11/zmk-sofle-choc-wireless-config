@@ -281,32 +281,32 @@
             bindings
                 = <&macro_press &mo 2>
                 , <&macro_wait_time 50>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(210,100,30)
-                                &rgb_ug RGB_COLOR_HSB(225,100,30)
-                                &rgb_ug RGB_COLOR_HSB(240,100,30)
-                                &rgb_ug RGB_COLOR_HSB(255,100,30)
-                                &rgb_ug RGB_COLOR_HSB(270,100,50)
-                                &rgb_ug RGB_COLOR_HSB(285,100,50)
-                                &rgb_ug RGB_COLOR_HSB(300,100,50)
-                                &rgb_ug RGB_COLOR_HSB(315,100,50)
-                                &rgb_ug RGB_COLOR_HSB(330,100,50)
-                                &rgb_ug RGB_COLOR_HSB(345,100,50)
-                                &rgb_ug RGB_COLOR_HSB(0,100,50)>
+                , <&macro_tap &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI>
                 , <&macro_wait_time 0>
                 , <&macro_pause_for_release>
                 , <&macro_release &mo 2>
                 , <&macro_wait_time 50>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(345,100,50)
-                                &rgb_ug RGB_COLOR_HSB(330,100,50)
-                                &rgb_ug RGB_COLOR_HSB(315,100,50)
-                                &rgb_ug RGB_COLOR_HSB(300,100,50)
-                                &rgb_ug RGB_COLOR_HSB(285,100,50)
-                                &rgb_ug RGB_COLOR_HSB(270,100,50)
-                                &rgb_ug RGB_COLOR_HSB(255,100,30)
-                                &rgb_ug RGB_COLOR_HSB(240,100,30)
-                                &rgb_ug RGB_COLOR_HSB(225,100,30)
-                                &rgb_ug RGB_COLOR_HSB(210,100,30)
-                                &rgb_ug RGB_COLOR_HSB(195,100,30)>
+                , <&macro_tap &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD>
                 , <&macro_wait_time 0>;
         };
         
@@ -319,28 +319,28 @@
             bindings
                 = <&macro_press &mo 1>
                 , <&macro_wait_time 50>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(180,100,50)
-                                &rgb_ug RGB_COLOR_HSB(165,100,50)
-                                &rgb_ug RGB_COLOR_HSB(150,100,50)
-                                &rgb_ug RGB_COLOR_HSB(135,100,50)
-                                &rgb_ug RGB_COLOR_HSB(120,100,50)
-                                &rgb_ug RGB_COLOR_HSB(105,100,50)
-                                &rgb_ug RGB_COLOR_HSB(90,100,50)
-                                &rgb_ug RGB_COLOR_HSB(75,100,50)
-                                &rgb_ug RGB_COLOR_HSB(60,100,50)>
+                , <&macro_tap &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI &rgb_ug RGB_HUI &rgb_ug RGB_HUI>
                 , <&macro_wait_time 0>
                 , <&macro_pause_for_release>
                 , <&macro_release &mo 1>
                 , <&macro_wait_time 50>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(75,100,50)
-                                &rgb_ug RGB_COLOR_HSB(90,100,50)
-                                &rgb_ug RGB_COLOR_HSB(105,100,50)
-                                &rgb_ug RGB_COLOR_HSB(120,100,50)
-                                &rgb_ug RGB_COLOR_HSB(135,100,50)
-                                &rgb_ug RGB_COLOR_HSB(150,100,50)
-                                &rgb_ug RGB_COLOR_HSB(165,100,50)
-                                &rgb_ug RGB_COLOR_HSB(180,100,50)
-                                &rgb_ug RGB_COLOR_HSB(195,100,30)>
+                , <&macro_tap &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD
+                              &rgb_ug RGB_HUD &rgb_ug RGB_HUD &rgb_ug RGB_HUD>
                 , <&macro_wait_time 0>;
         };
 
@@ -353,28 +353,28 @@
             bindings
                 = <&macro_press &mo 3>
                 , <&macro_wait_time 50>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(200,100,30)
-                                &rgb_ug RGB_COLOR_HSB(205,100,30)
-                                &rgb_ug RGB_COLOR_HSB(210,100,50)
-                                &rgb_ug RGB_COLOR_HSB(215,100,30)
-                                &rgb_ug RGB_COLOR_HSB(220,100,30)
-                                &rgb_ug RGB_COLOR_HSB(225,100,50)
-                                &rgb_ug RGB_COLOR_HSB(230,100,30)
-                                &rgb_ug RGB_COLOR_HSB(235,100,30)
-                                &rgb_ug RGB_COLOR_HSB(240,100,50)>
+                , <&macro_tap &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI
+                              &rgb_ug RGB_HUI>
                 , <&macro_wait_time 0>
                 , <&macro_pause_for_release>
                 , <&macro_release &mo 3>
                 , <&macro_wait_time 50>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(235,100,30)
-                                &rgb_ug RGB_COLOR_HSB(230,100,30)
-                                &rgb_ug RGB_COLOR_HSB(225,100,50)
-                                &rgb_ug RGB_COLOR_HSB(220,100,30)
-                                &rgb_ug RGB_COLOR_HSB(215,100,30)
-                                &rgb_ug RGB_COLOR_HSB(210,100,50)
-                                &rgb_ug RGB_COLOR_HSB(205,100,30)
-                                &rgb_ug RGB_COLOR_HSB(200,100,30)
-                                &rgb_ug RGB_COLOR_HSB(195,100,30)>
+                , <&macro_tap &rgb_ug RGB_HUD
+                                &rgb_ug RGB_HUD
+                                &rgb_ug RGB_HUD
+                                &rgb_ug RGB_HUD
+                                &rgb_ug RGB_HUD
+                                &rgb_ug RGB_HUD
+                                &rgb_ug RGB_HUD
+                                &rgb_ug RGB_HUD
+                                &rgb_ug RGB_HUD>
                 , <&macro_wait_time 0>;
         };
     };
@@ -432,7 +432,7 @@
             label = "blutoosu";
             bindings = <
 &trans  &trans          &trans          &trans          &trans        &trans                                                        &trans                             &trans            &trans           &trans           &trans           &trans 
-&trans  &kp C_POWER     &kp K_POWER     &kp C_SLEEP     &kp K_SLEEP   &trans                                                        &rgb_ug RGB_COLOR_HSB(0,0,10)      &trans            &trans           &trans           &trans           &trans
+&trans  &kp C_POWER     &kp K_POWER     &kp C_SLEEP     &kp K_SLEEP   &trans                                                        &rgb_ug RGB_COLOR_HSB(0,100,10)      &trans            &trans           &trans           &trans           &trans
 &trans  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4                                                  &rgb_ug RGB_TOG                    &rgb_ug RGB_SPI   &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF
 &trans  &out OUT_USB    &out OUT_BLE    &bt BT_PRV      &bt BT_NXT    &bt BT_CLR    &kp C_BRIGHTNESS_DEC    &kp C_BRIGHTNESS_INC    &rgb_ug RGB_COLOR_HSB(195,100,30)  &rgb_ug RGB_SPD   &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFR
                         &trans          &trans          &trans        &trans        &trans                  &trans                  &trans                             &trans            &trans           &trans
