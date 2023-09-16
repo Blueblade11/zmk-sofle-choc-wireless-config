@@ -78,7 +78,7 @@
 
         red_lyr: raise_red_layer {
             compatible = "zmk,behavior-hold-tap";
-            label = "KEYPRESS_LAYER";
+            label = "RAISE_RED_LAYER";
             bindings =
                 <&r_red>,
                 <&kp>;
@@ -89,7 +89,7 @@
         };
         ylw_lyr: lower_yellow_layer {
             compatible = "zmk,behavior-hold-tap";
-            label = "KEYPRESS_LAYER";
+            label = "LOWER_YELLOW_LAYER";
             bindings =
                 <&l_ylw>,
                 <&kp>;
