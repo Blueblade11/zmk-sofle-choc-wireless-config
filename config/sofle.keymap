@@ -134,93 +134,93 @@
                 <&kp>;
         };
 
-        // windows explorer shortcut        
-        f_e: f_e {
-            compatible = "zmk,behavior-mod-morph";
-            label = "F_E";
-            #binding-cells = <0>;
-            bindings =
-                <&kp F>,
-                <&kp E>;
-            mods = <(MOD_LGUI)>;
-            keep-mods = <(MOD_LGUI)>;
-        };
+        // // windows explorer shortcut        
+        // f_e: f_e {
+        //     compatible = "zmk,behavior-mod-morph";
+        //     label = "F_E";
+        //     #binding-cells = <0>;
+        //     bindings =
+        //         <&kp F>,
+        //         <&kp E>;
+        //     mods = <(MOD_LGUI)>;
+        //     keep-mods = <(MOD_LGUI)>;
+        // };
 
-        // swap t and g on lctrl
-        t_g: t_g {
-            compatible = "zmk,behavior-mod-morph";
-            label = "T_G";
-            #binding-cells = <0>;
-            bindings =
-                <&kp T>,
-                <&kp G>;
-            mods = <(MOD_LCTL)>;
-            keep-mods = <(MOD_LCTL)>;
-        };
-        g_t: g_t {
-            compatible = "zmk,behavior-mod-morph";
-            label = "G_T";
-            #binding-cells = <0>;
-            bindings =
-                <&kp G>,
-                <&kp T>;
-            mods = <(MOD_LCTL)>;
-            keep-mods = <(MOD_LCTL)>;
-        };
+        // // swap t and g on lctrl
+        // t_g: t_g {
+        //     compatible = "zmk,behavior-mod-morph";
+        //     label = "T_G";
+        //     #binding-cells = <0>;
+        //     bindings =
+        //         <&kp T>,
+        //         <&kp G>;
+        //     mods = <(MOD_LCTL)>;
+        //     keep-mods = <(MOD_LCTL)>;
+        // };
+        // g_t: g_t {
+        //     compatible = "zmk,behavior-mod-morph";
+        //     label = "G_T";
+        //     #binding-cells = <0>;
+        //     bindings =
+        //         <&kp G>,
+        //         <&kp T>;
+        //     mods = <(MOD_LCTL)>;
+        //     keep-mods = <(MOD_LCTL)>;
+        // };
 
-        // r to s, p to r, on lctrl
-        r_s: r_s {
-            compatible = "zmk,behavior-mod-morph";
-            label = "R_S";
-            #binding-cells = <0>;
-            bindings =
-                <&kp R>,
-                <&kp S>;
-            mods = <(MOD_LCTL)>;
-            keep-mods = <(MOD_LCTL)>;
-        };
-        p_r: p_r {
-            compatible = "zmk,behavior-mod-morph";
-            label = "P_R";
-            #binding-cells = <0>;
-            bindings =
-                <&kp P>,
-                <&kp R>;
-            mods = <(MOD_LCTL)>;
-            keep-mods = <(MOD_LCTL)>;
-        };
+        // // r to s, p to r, on lctrl
+        // r_s: r_s {
+        //     compatible = "zmk,behavior-mod-morph";
+        //     label = "R_S";
+        //     #binding-cells = <0>;
+        //     bindings =
+        //         <&kp R>,
+        //         <&kp S>;
+        //     mods = <(MOD_LCTL)>;
+        //     keep-mods = <(MOD_LCTL)>;
+        // };
+        // p_r: p_r {
+        //     compatible = "zmk,behavior-mod-morph";
+        //     label = "P_R";
+        //     #binding-cells = <0>;
+        //     bindings =
+        //         <&kp P>,
+        //         <&kp R>;
+        //     mods = <(MOD_LCTL)>;
+        //     keep-mods = <(MOD_LCTL)>;
+        // };
 
-        //dvb retrigger
-        d_v: d_v {
-            compatible = "zmk,behavior-mod-morph";
-            label = "D_V";
-            #binding-cells = <0>;
-            bindings =
-                <&kp D>,
-                <&kp V>;
-            mods = <(MOD_LCTL)>;
-            keep-mods = <(MOD_LCTL)>;
-        };
-        v_b: v_b {
-            compatible = "zmk,behavior-mod-morph";
-            label = "V_B";
-            #binding-cells = <0>;
-            bindings =
-                <&kp V>,
-                <&kp B>;
-            mods = <(MOD_LCTL)>;
-            keep-mods = <(MOD_LCTL)>;
-        };
-        b_d: b_d {
-            compatible = "zmk,behavior-mod-morph";
-            label = "B_D";
-            #binding-cells = <0>;
-            bindings =
-                <&kp B>,
-                <&kp D>;
-            mods = <(MOD_LCTL)>;
-            keep-mods = <(MOD_LCTL)>;
-        };
+        // //dvb retrigger
+        // d_v: d_v {
+        //     compatible = "zmk,behavior-mod-morph";
+        //     label = "D_V";
+        //     #binding-cells = <0>;
+        //     bindings =
+        //         <&kp D>,
+        //         <&kp V>;
+        //     mods = <(MOD_LCTL)>;
+        //     keep-mods = <(MOD_LCTL)>;
+        // };
+        // v_b: v_b {
+        //     compatible = "zmk,behavior-mod-morph";
+        //     label = "V_B";
+        //     #binding-cells = <0>;
+        //     bindings =
+        //         <&kp V>,
+        //         <&kp B>;
+        //     mods = <(MOD_LCTL)>;
+        //     keep-mods = <(MOD_LCTL)>;
+        // };
+        // b_d: b_d {
+        //     compatible = "zmk,behavior-mod-morph";
+        //     label = "B_D";
+        //     #binding-cells = <0>;
+        //     bindings =
+        //         <&kp B>,
+        //         <&kp D>;
+        //     mods = <(MOD_LCTL)>;
+        //     keep-mods = <(MOD_LCTL)>;
+        // };
 
         // semi to p on rctrl
         semi_p: semi_p {
@@ -235,28 +235,28 @@
         };
 
         // nested mod morph on homerow mod
-        hm_c_tg: homerow_mods_lctrl_tg {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MOD_MORPH_LCTRL_TG";
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick-tap-ms = <0>;
-            flavor = "tap-preferred";
-            bindings =
-                <&kp>,
-                <&t_g>;
-        };
-        hm_c_rs: homerow_mods_lctrl_rs {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MOD_MORPH_LCTRL_RS";
-            #binding-cells = <2>;
-            tapping-term-ms = <210>;
-            quick-tap-ms = <0>;
-            flavor = "tap-preferred";
-            bindings =
-                <&kp>,
-                <&r_s>;
-        };
+        // hm_c_tg: homerow_mods_lctrl_tg {
+        //     compatible = "zmk,behavior-hold-tap";
+        //     label = "HOMEROW_MOD_MORPH_LCTRL_TG";
+        //     #binding-cells = <2>;
+        //     tapping-term-ms = <150>;
+        //     quick-tap-ms = <0>;
+        //     flavor = "tap-preferred";
+        //     bindings =
+        //         <&kp>,
+        //         <&t_g>;
+        // };
+        // hm_c_rs: homerow_mods_lctrl_rs {
+        //     compatible = "zmk,behavior-hold-tap";
+        //     label = "HOMEROW_MOD_MORPH_LCTRL_RS";
+        //     #binding-cells = <2>;
+        //     tapping-term-ms = <210>;
+        //     quick-tap-ms = <0>;
+        //     flavor = "tap-preferred";
+        //     bindings =
+        //         <&kp>,
+        //         <&r_s>;
+        // };
 
     };
 
@@ -357,9 +357,9 @@
             label = "moto";
             bindings = <
 &kp  ESC          &kp N1    &kp N2           &kp N3         &kp N4            &kp N5                                    &kp N6           &kp N7          &kp N8          &kp N9          &kp N0      &kp BSLH
-&hml LALT GRAVE   &kp Q     &kp W            &f_e           &p_r              &b_d                                      &kp J            &kp L           &kp U           &kp Y           &semi_p     &hms BSPC LBKT
-&hml LCTRL EQUAL  &kp A     &hm_c_rs LALT 0  &hms LCTRL S   &hms LSHFT T      &kp G                                     &kp M            &hms RSHFT N    &hms RCTRL E    &hml LALT I     &kp O       &kp SQT
-&hml LSHFT MINUS  &kp Z     &kp X            &kp C          &d_v              &v_b             &key_repeat  &degree     &kp K            &kp H           &kp COMMA       &kp DOT         &kp FSLH    &kp RBKT
+&hml LALT GRAVE   &kp Q     &kp W            &kp E          &kp R             &kp T                                     &kp Y            &kp U           &kp I           &kp O           &kp P       &hms BSPC LBKT
+&hml LCTRL EQUAL  &kp A     &hml LALT S      &hms LCTRL D   &hms LSHFT F      &kp G                                     &kp H            &hms RSHFT J    &hms RCTRL K    &hml LALT L     &kp SEMI    &kp SQT
+&hml LSHFT MINUS  &kp Z     &kp X            &kp C          &kp V             &kp B            &key_repeat  &degree     &kp N            &kp M           &kp COMMA       &kp DOT         &kp FSLH    &kp RBKT
                             &b_blu           &kp LGUI       &kp LALT          &ylw_lyr 0 DEL   &kp SPACE    &kp RET     &red_lyr 0 BSPC  &kp LCTRL       &kp CLCK        &kp LA(LSHFT)   
                                                                                                                                                                          /* ime keyboard toggle */
   >;
