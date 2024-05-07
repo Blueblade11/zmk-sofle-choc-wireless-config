@@ -420,7 +420,7 @@
 &kp ESC     &kp TAB     &kp Q   &kp W     &kp E      &kp R                               &apex  &apex  &apex  &apex  &apex  &apex 
 &kp Y       &kp LSHIFT  &kp A   &kp S     &kp D      &kp F                               &apex  &apex  &apex  &apex  &apex  &apex
 &kp T       &kp LCTRL   &kp Z   &kp X     &kp C      &kp V  &kp B           &screenshot  &apex  &apex  &apex  &apex  &apex  &apex
-                        &kp F1  &kp G     &kp LALT   &kp X  &kp SPACE       &kp ENTER    &apex  &apex  &apex  &screenshot
+                        &kp F1  &kp G     &kp LALT   &kp O  &kp SPACE       &kp ENTER    &apex  &apex  &apex  &screenshot
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
