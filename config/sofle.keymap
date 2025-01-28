@@ -371,10 +371,10 @@
 
             label = "shita";
             bindings = <
-&trans  &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                       &kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6
-&trans  &kp N6    &kp N7    &kp N8      &kp N9    &kp N0                       &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans    &trans    &trans      &trans    &trans                       &kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6
+&trans  &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                       &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &trans  &trans    &kp ESC   &trans      &cs       &kp TAB                      &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans    &trans    &trans      &trans    &trans    &trans   &trans    &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &kp N6    &kp N7    &kp N8      &kp N9    &kp N0    &trans   &trans    &trans  &trans  &trans  &trans   &trans   &trans
                   &trans    &trans      &trans    &trans    &trans   &trans    &trans  &trans  &trans  &trans
             >;
 
@@ -416,11 +416,11 @@
             label = "apex";
             bindings = <
                                                                                                                             /* reset to default layer */
-&kp N6      &kp N5      &kp N1  &kp N2    &kp N3     &kp N4                              &apex  &apex  &apex  &apex  &apex  &to 0
-&kp ESC     &kp TAB     &kp Q   &kp W     &kp E      &kp R                               &apex  &apex  &apex  &apex  &apex  &apex 
-&kp Y       &kp LSHIFT  &kp A   &kp S     &kp D      &kp F                               &apex  &apex  &apex  &apex  &apex  &apex
-&kp T       &kp LCTRL   &kp Z   &kp X     &kp C      &kp V  &kp B           &screenshot  &apex  &apex  &apex  &apex  &apex  &apex
-                        &kp F1  &kp G     &kp LALT   &kp O  &kp SPACE       &kp ENTER    &apex  &apex  &apex  &screenshot
+&kp N6      &kp N5      &kp N1  &kp N2    &kp N3     &kp N4                              &kp N5 &kp N6  &kp N7     &kp N8   &kp N9    &kp N0
+&kp ESC     &kp TAB     &kp Q   &kp W     &kp E      &kp R                               &kp T  &kp Y   &kp U      &kp I    &kp O     &kp P 
+&kp Y       &kp LSHIFT  &kp A   &kp S     &kp D      &kp F                               &kp G  &kp H   &kp J      &kp K    &kp L     &kp SEMI
+&kp T       &kp LCTRL   &kp Z   &kp X     &kp C      &kp V  &kp B           &screenshot  &kp N  &kp M   &kp COMMA  &kp DOT  &kp FSLH  &apex
+                        &kp F1  &kp G     &kp LALT   &kp O  &kp SPACE       &kp ENTER    &apex  &apex   &to 0      &screenshot
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
