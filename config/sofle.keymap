@@ -356,11 +356,11 @@
 
             label = "moto";
             bindings = <
-&kp  ESC          &kp N1    &kp N2           &kp N3         &kp N4            &kp N5                                    &kp N6           &kp N7          &kp N8          &kp N9          &kp N0      &kp BSLH
-&hml LALT GRAVE   &kp Q     &kp W            &f_e           &p_r              &b_d                                      &kp J            &kp L           &kp U           &kp Y           &semi_p     &hms BSPC LBKT
-&hml LCTRL EQUAL  &kp A     &hm_c_rs LALT 0  &hms LCTRL S   &hms LSHFT T      &kp G                                     &kp M            &hms RSHFT N    &hms RCTRL E    &hml LALT I     &kp O       &kp SQT
-&hml LSHFT MINUS  &kp Z     &kp X            &kp C          &d_v              &v_b             &key_repeat  &degree     &kp K            &kp H           &kp COMMA       &kp DOT         &kp FSLH    &kp RBKT
-                            &b_blu           &kp LGUI       &kp LALT          &ylw_lyr 0 DEL   &kp SPACE    &kp RET     &red_lyr 0 BSPC  &kp LCTRL       &kp CLCK        &kp LA(LSHFT)   
+&kp  ESC          &kp N1        &kp N2           &kp N3         &kp N4            &kp N5                                    &kp N6           &kp N7          &kp N8          &kp N9          &kp N0      &kp BSLH
+&hml LALT GRAVE   &kp Q         &kp W            &f_e           &p_r              &b_d                                      &kp J            &kp L           &kp U           &kp Y           &semi_p     &hms BSPC LBKT
+&hml LCTRL EQUAL  &hml LGUI A   &hm_c_rs LALT 0  &hms LCTRL S   &hms LSHFT T      &kp G                                     &kp M            &hms RSHFT N    &hms RCTRL E    &hml LALT I     &kp O       &kp SQT
+&hml LSHFT MINUS  &kp Z         &kp X            &kp C          &d_v              &v_b             &key_repeat  &degree     &kp K            &kp H           &kp COMMA       &kp DOT         &kp FSLH    &kp RBKT
+                                &b_blu           &kp LGUI       &kp LALT          &ylw_lyr 0 DEL   &kp SPACE    &kp RET     &red_lyr 0 BSPC  &kp LCTRL       &kp CLCK        &kp LA(LSHFT)   
                                                                                                                                                                          /* ime keyboard toggle */
   >;
 
