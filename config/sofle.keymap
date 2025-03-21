@@ -373,7 +373,7 @@
             bindings = <
 &trans  &trans    &trans    &trans      &trans    &trans                       &kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6
 &trans  &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                       &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans    &kp ESC   &trans      &cs       &kp TAB                      &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &Rs    &kp ESC   &trans      &cs       &kp TAB                      &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &kp N6    &kp N7    &kp N8      &kp N9    &kp N0    &trans   &trans    &trans  &trans  &trans  &trans   &trans   &trans
                   &trans    &trans      &trans    &trans    &trans   &trans    &trans  &trans  &trans  &trans
             >;
@@ -388,7 +388,7 @@
 &trans     &trans       &trans      &trans            &trans        &trans                       &trans       &trans    &trans    &trans     &trans     &trans
 &trans     &trans       &trans      &trans            &trans        &trans                       &trans       &trans    &trans    &kp INS    &kp BSPC   &kp DEL
 &trans     &trans       &trans      &kp C_VOL_DN      &kp C_VOL_UP  &kp C_MUTE                   &kp K_CMENU  &kp LEFT  &kp UP    &kp RIGHT  &kp PG_UP  &screenshot
-&trans     &trans       &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT    &to 4       &trans   &trans  &kp PSCRN    &kp HOME  &kp DOWN  &kp END    &kp PG_DN  &trans
+&trans     &trans       &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT    &to 4       &to 5    &trans  &kp PSCRN    &kp HOME  &kp DOWN  &kp END    &kp PG_DN  &trans
                         &trans       &trans           &trans        &trans      &trans   &trans  &trans    &trans    &trans   &trans
             >;
 
@@ -416,11 +416,44 @@
             label = "apex";
             bindings = <
                                                                                                                             /* reset to default layer */
-&kp N6      &kp N5      &kp N1  &kp N2    &kp N3     &kp N4                              &kp N5 &kp N6  &kp N7     &kp N8   &kp N9    &kp N0
-&kp ESC     &kp TAB     &kp Q   &kp W     &kp E      &kp R                               &kp T  &kp Y   &kp U      &kp I    &kp O     &kp P 
-&kp Y       &kp LSHIFT  &kp A   &kp S     &kp D      &kp F                               &kp G  &kp H   &kp J      &kp K    &kp L     &kp SEMI
-&kp T       &kp LCTRL   &kp Z   &kp X     &kp C      &kp V  &kp B           &screenshot  &kp N  &kp M   &kp COMMA  &kp DOT  &kp FSLH  &apex
-                        &kp F1  &kp G     &kp LALT   &kp O  &kp SPACE       &kp ENTER    &apex  &apex   &to 0      &screenshot
+&kp N6      &kp N5      &kp N1  &kp N2    &kp N3     &kp N4                              &kp N5   &kp N6    &kp N7     &kp N8   &kp N9    &kp N0
+&kp ESC     &kp TAB     &kp Q   &kp W     &kp E      &kp R                               &kp T    &kp Y     &kp U      &kp I    &kp O     &kp P 
+&kp Y       &kp LSHIFT  &kp A   &kp S     &kp D      &kp F                               &kp G    &kp H     &kp J      &kp K    &kp L     &kp SEMI
+&kp T       &kp LCTRL   &kp Z   &kp X     &kp C      &kp V  &kp B           &screenshot  &kp N    &kp M     &kp COMMA  &kp DOT  &kp FSLH  &apex
+                        &kp F1  &kp G     &kp LALT   &kp O  &kp SPACE       &kp ENTER    &kp RET  &kp LGUI  &to 0      &screenshot
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        };
+        
+        qwerty_game_layer_1 {
+            // QWERTY LAYER
+            // layer: 5
+
+            label = "qwerty";
+            bindings = <
+
+&kp ESC     &kp N1  &kp N2  &kp N3  &kp N4      &kp N5                              &kp N6  &kp N7  &kp N8      &kp N9      &kp N0      &kp BSLH
+&kp TAB     &kp Q   &kp W   &kp E   &kp R       &kp T                               &kp Y   &kp U   &kp I       &kp O       &kp P       &kp LBKT
+&kp LSHIFT  &kp A   &kp S   &kp D   &kp F       &kp G                               &kp H   &kp J   &kp K       &kp L       &kp SEMI    &kp SQT
+&kp LCTRL   &kp Z   &kp X   &kp C   &kp V       &kp B   &kp F1          &sl 6       &kp N   &kp M   &kp COMMA   &kp DOT     &kp FSLH    &kp RBKT
+                 &kp GRAVE  &kp F1  &kp LALT    &mo 6   &kp SPACE       &kp ENTER   &kp RET &none   &to 0       &screenshot
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        };
+
+        qwerty_game_layer_2 {
+            // QWERTY FUNCTIONS LAYER
+            // layer: 6
+
+            label = "func.";
+            bindings = <
+&trans     &kp F1   &kp F2   &kp F3     &kp F4  &kp F5                  &trans  &trans    &trans    &trans     &trans     &trans
+&trans     &kp F6   &kp F7   &kp F8     &kp F9  &kp F10                 &trans  &trans    &trans    &trans     &trans     &trans
+&kp EQUAL  &kp INS  &kp HOME &kp PG_UP  &kp F11 &kp F12                 &trans  &kp LEFT  &kp UP    &kp RIGHT  &trans     &trans
+&kp MINUS  &kp DEL  &kp END  &kp PG_DN  &trans  &trans  &trans  &trans  &trans  &trans    &kp DOWN  &trans     &trans     &trans
+                    &trans   &trans     &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
