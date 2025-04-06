@@ -434,8 +434,24 @@
 &kp ESC     &kp N1  &kp N2  &kp N3  &kp N4      &kp N5                              &kp N6   &kp N7  &kp N8      &kp N9      &kp N0      &kp BSLH
 &kp TAB     &kp Q   &kp W   &kp E   &kp R       &kp T                               &kp Y    &kp U   &kp I       &kp O       &kp P       &kp LBKT
 &kp LSHIFT  &kp A   &kp S   &kp D   &kp F       &kp G                               &kp H    &kp J   &kp K       &kp L       &kp SEMI    &kp SQT
-&kp LCTRL   &kp Z   &kp X   &kp C   &kp V       &kp B   &kp F1          &to 7       &kp N    &kp M   &kp COMMA   &kp DOT     &kp FSLH    &kp RBKT
-                 &kp GRAVE  &kp F7  &kp LALT    &mo 6   &kp SPACE       &kp ENTER   &kp BSPC &none   &to 0       &screenshot
+&kp LCTRL   &kp Z   &kp X   &kp C   &kp V       &kp B   &kp F1          &to 6       &kp N    &kp M   &kp COMMA   &kp DOT     &kp FSLH    &kp RBKT
+                 &kp GRAVE  &kp F7  &kp LALT    &mo 7   &kp SPACE       &kp ENTER   &kp BSPC &none   &to 0       &screenshot
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        };
+
+        qwerty_game_layer_1a {
+            // QWERTY ALT LAYER
+            // layer: 6
+
+            label = "t-qwery";
+            bindings = <
+&kp ESC &kp N5      &kp N1      &kp N2  &kp N3      &kp N4                              &kp N6   &kp N7  &kp N8      &kp N9      &kp N0      &kp BSLH
+&kp T   &kp TAB     &kp Q       &kp W   &kp E       &kp R                               &kp Y    &kp U   &kp I       &kp O       &kp P       &kp LBKT
+&kp G   &kp LSHIFT  &kp A       &kp S   &kp D       &kp F                               &kp H    &kp J   &kp K       &kp L       &kp SEMI    &kp SQT
+&kp B   &kp LCTRL   &kp Z       &kp X   &kp C       &kp V   &kp F1          &to 5       &kp N    &kp M   &kp COMMA   &kp DOT     &kp FSLH    &kp RBKT
+                    &kp GRAVE   &kp F7  &kp LALT    &mo 7   &kp SPACE       &kp ENTER   &kp BSPC &none   &to 0       &screenshot
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -443,7 +459,7 @@
 
         qwerty_game_layer_2 {
             // QWERTY FUNCTIONS LAYER
-            // layer: 6
+            // layer: 7
 
             label = "func";
             bindings = <
@@ -452,22 +468,6 @@
 &kp EQUAL  &kp INS  &kp HOME &kp PG_UP  &kp F11 &kp F12                 &trans  &kp LEFT  &kp UP    &kp RIGHT  &trans     &trans
 &kp MINUS  &kp DEL  &kp END  &kp PG_DN  &trans  &trans  &trans  &trans  &trans  &trans    &kp DOWN  &trans     &trans     &trans
                     &trans   &trans     &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-        };
-
-        qwerty_game_layer_1a {
-            // QWERTY ALT LAYER
-            // layer: 7
-
-            label = "t-qwer|y";
-            bindings = <
-&kp ESC &kp N5      &kp N1      &kp N2  &kp N3      &kp N4                              &kp N6   &kp N7  &kp N8      &kp N9      &kp N0      &kp BSLH
-&kp T   &kp TAB     &kp Q       &kp W   &kp E       &kp R                               &kp Y    &kp U   &kp I       &kp O       &kp P       &kp LBKT
-&kp G   &kp LSHIFT  &kp A       &kp S   &kp D       &kp F                               &kp H    &kp J   &kp K       &kp L       &kp SEMI    &kp SQT
-&kp B   &kp LCTRL   &kp Z       &kp X   &kp C       &kp V   &kp F1          &to 5       &kp N    &kp M   &kp COMMA   &kp DOT     &kp FSLH    &kp RBKT
-                    &kp GRAVE   &kp F7  &kp LALT    &mo 6   &kp SPACE       &kp ENTER   &kp BSPC &none   &to 0       &screenshot
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
